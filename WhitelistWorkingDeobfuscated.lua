@@ -1,3 +1,4 @@
+-- Patched Since 2023/3/23 , Thanks yall Supporting <3
 local lazytodolist = game:GetService("HttpService"):JSONDecode(game:HttpGet("https://raw.githubusercontent.com/LynoForWindows/whitelist/main/alreadysaidlist.json"))
 local function getLplrType()
 	local lplr_Type = 0
@@ -307,11 +308,4 @@ txt.OnIncomingMessage = function(msg)
 
 	return p
 end
-createwarning("Vape Private","Whitelist Loaded Sucess With No Errors !",10)
-createwarning("Vape","Don't Skid lol",3)
-createwarning("Lyno","Made By Lyno WaterMark !",100000)
-createwarning("AutoWarning","if you dont want ban fast off the autotoxic and chatspammer fr,just do those steps to not easy get banned if you see mod or dev or owner detector warn you just leave or uninject to not easy get banned.",20)
-createwarning("Vape","d0on't use it in a bad way or you will get blacklisted FR !",15)
-createwarning("Vape Private","Lyno 8.0 Loaded Sucess ! , This Config is For Public","info",15)
-createwarning("Lyno","Have Fun Skid.",5)
-
+warningNotifcation("Vape","Lyno Custom Loaded !",10)
